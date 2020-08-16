@@ -1,0 +1,15 @@
+.btn {
+    padding: 8px 20px;
+    border: 0;
+    color: $white;
+    cursor: pointer;
+    border-radius: 30px;
+    &:hover,
+    &:focus {
+        outline: none;
+        color: $white;
+    }
+    &.btn-qkly {
+        background: $primary-color;
+    }
+}

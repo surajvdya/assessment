@@ -1,0 +1,18 @@
+.qkly-pagination{
+	float: right;
+	&>li {
+		display: inline-block;
+		& > a {
+			color: $color-text;
+			font-size: 16px;
+			padding: 3px 10px;
+
+		}
+		& > a.active, 
+		& > a:hover,
+		& > a:active{
+			color: #FFF;
+			background: $blue;
+		}
+	}
+}
